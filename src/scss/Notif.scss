@@ -1,0 +1,89 @@
+.notif{
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 400px;
+  height: 80px;
+  background: white;
+  z-index: 99;
+  border-radius: 5px;
+  .notif-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    .border-left{
+      width: 4px;
+      height: 70%;
+      background: black;
+      margin-left: 12px;
+      margin-right: 12px;
+      border-radius: 4px;
+    }
+    .icon{
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background: black;
+      position: relative;
+      svg{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 20px;
+      }
+    }
+    .text{
+      margin-left: 15px;
+      .title{
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        color: rgb(37, 37, 37);
+      }
+      .phrase{
+        font-size: 13px;
+        font-weight: 400;
+        color: #a9abaf;
+      }
+    }
+    .cross{
+      font-weight: 600;
+      position: absolute;
+      right: 20px;
+      color: #a9abaf;
+      cursor: pointer;
+      font-size: 20px;
+    }
+  }
+
+}
+
+.notif-anim-top{
+  animation: NotifAnimTop 1s linear;
+}
+.notif-anim-left{
+  animation: NotifAnimLeft 1s linear;
+}
+.notif-anim-right{
+  animation: NotifAnimRight 1s linear;
+}
+
+.notif-border-ffba49{
+  border-bottom: 2px solid #ffba49;
+}
+.notif-border-20a39e{
+  border-bottom: 2px solid #20a39e;
+}
+.notif-border-ef5b5b{
+  border-bottom: 2px solid #ef5b5b;
+}
+.notif-border-7D84B2{
+  border-bottom: 2px solid #7D84B2;
+}
+.notif-border-1C6E8C{
+  border-bottom: 2px solid #1C6E8C;
+}

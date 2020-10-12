@@ -1,0 +1,24 @@
+@keyframes NotifAnimTop {
+  0% {top: -200px;}
+  80% {top: 50px;}
+  85% {top: 45px;}
+  90% {top: 50px;}
+  95% {top: 45px;}
+  100% {top: 50px;}
+}
+@keyframes NotifAnimLeft {
+  0% {left: -800px;}
+  80% {left: 50%;}
+  85% {left: 48%;}
+  90% {left: 50%;}
+  95% {left: 48%;}
+  100% {left: 50%;}
+}
+@keyframes NotifAnimRight {
+  0% {left: 200%;}
+  80% {left: 50%;}
+  85% {left: 48%;}
+  90% {left: 50%;}
+  95% {left: 48%;}
+  100% {left: 50%;}
+}

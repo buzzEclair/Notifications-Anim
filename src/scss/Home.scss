@@ -1,0 +1,41 @@
+.content{
+  width: 100%;
+  height: 100vh;
+  background: rgb(206, 206, 206);
+  position: relative;
+  overflow: hidden;
+  .top-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: rgb(34, 34, 34);
+    border-bottom: 3px solid black;
+  }
+  .button-refresh{
+    width: 200px;
+    height: 50px;
+    background: white;
+    border-radius: 4px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-bottom: 2px solid #fb8b24;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fb8b24;
+    svg{
+      margin-right: 10px;
+      font-size: 25px;
+    }
+    p{
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+  }
+}
